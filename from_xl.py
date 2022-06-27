@@ -5,6 +5,8 @@ import streamlit as st
 #import matplotlib.pyplot as plt
 import numpy as np
 
+print('hello')
+
 st.set_page_config(page_title="Tech Separation Cost Dashboard",
                    page_icon=":bar_chart:",
                    layout="wide")
