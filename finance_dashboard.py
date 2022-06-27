@@ -12,7 +12,7 @@ st.set_page_config(page_title="Tech Separation Cost Dashboard",
 
 @st.cache
 def get_data_from_excel():
-    df = pd.read_excel('/Users/James/Desktop/TCS M&A/FinanceDashboard/fin_dashboard_xl.xls',
+    df = pd.read_excel('fin_dashboard_xl.xls',
                             #engine='openpyxl',
                             sheet_name='Asset_Integration',
                             skiprows=8)
